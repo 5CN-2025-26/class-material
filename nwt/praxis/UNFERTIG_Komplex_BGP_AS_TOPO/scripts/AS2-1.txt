@@ -1,0 +1,80 @@
+!AS2-1
+
+!Grundkonfig
+conf t
+no ip domain-lookup
+
+hostname AS2-1
+ip domain-name 5CN
+
+username cisco priv 15 algorithm-type scrypt secret cisco
+
+#ssh conf
+crypto key generate rsa modulus 1024
+ip ssh version 2
+
+
+#line conf
+
+line con 0 
+exec-time 0 0
+logging synchronous
+exit
+
+line vty 0 15
+exec-time 0 0
+logging synchronous
+transport input telnet ssh
+login local
+exit
+
+
+# Interface conf
+
+int g 0/0
+no shut
+ip address 192.168.12.2 255.255.255.0
+description To_AS1-1
+exit
+
+int g 0/1
+no shut
+ip address 10.0.0.1 255.255.255.0
+description To_AS2-3
+exit
+
+int g 0/2
+no shut
+ip address 192.168.24.2 255.255.255.0
+description To_SUB-AS1-1
+exit
+
+int lo 1
+no shut
+ip address 2.2.2.2 255.255.255.255
+exit
+
+# OSPF Konf
+
+router ospf 22
+
+router-id 2.2.2.2 
+passive g0/2
+passive g0/0
+
+network 2.2.2.2 0.0.0.0 area 22
+network 10.0.0.0 0.0.0.255 area 22
+exit
+
+
+#MPLS
+interface g 0/1
+mpls ip
+exit
+
+
+#BGP
+router bgp 2
+
+neighbor 3.3.3.3 remote-as 2
+neighbor 3.3.3.3 update-source lo 1
