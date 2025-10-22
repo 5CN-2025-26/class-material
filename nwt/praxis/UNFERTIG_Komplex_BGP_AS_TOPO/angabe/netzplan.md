@@ -74,8 +74,8 @@
 
 # AS2
 
-### AS2-1
-[script](../scripts/AS2-1.md)
+### [AS2-1](../scripts/AS2-1.md)
+
 | interface | IP               | description   |
 | --------- | ---------------- | ------------- |
 | GI0/0     | 192.168.12.2 /24 | To_AS1-1      |
@@ -83,8 +83,8 @@
 | GI0/2     | 192.168.24.2 /24 | To_Sub-AS-1-1 |
 | LO1       | 2.2.2.2 /32      | -             |
 
-### AS2-2
-[script](../scripts/AS2-2.md)
+### [AS2-2](../scripts/AS2-2.md)
+
 | interface | IP               | description   |
 | --------- | ---------------- | ------------- |
 | GI0/0     | 192.168.13.3 /24 | To_AS1-1      |
@@ -92,24 +92,24 @@
 | GI0/3     | 10.0.3.2 /24     | To_AS2-4      |
 | LO1       | 3.3.3.3 /32      | -             |
 
-### AS2-3
-[script](../scripts/AS2-3.md)
+### [AS2-3](../scripts/AS2-3.md)
+
 | interface | IP             | description |
 | --------- | -------------- | ----------- |
 | GI0/0     | 10.0.1.1 /24   | To_AS2-5    |
 | GI0/1     | 10.0.0.2 /24   | To_AS2-1    |
 | LO1       | 22.22.22.3 /32 | -           |
 
-### AS2-4
-[script](../scripts/AS2-4.md)
+### [AS2-4](../scripts/AS2-4.md)
+
 | interface | IP             | description |
 | --------- | -------------- | ----------- |
 | GI0/1     | 10.0.2.2 /24   | To_AS2-5    |
 | GI0/3     | 10.0.3.1 /24   | To_AS2-2    |
 | LO1       | 22.22.22.4 /32 | -           |
 
-### AS2-5
-[script](../scripts/AS2-5.md)
+### [AS2-5](../scripts/AS2-5.md)
+
 | interface | IP             | description |
 | --------- | -------------- | ----------- |
 | GI0/0     | 10.0.1.2 /24   | To_AS2-3    |
