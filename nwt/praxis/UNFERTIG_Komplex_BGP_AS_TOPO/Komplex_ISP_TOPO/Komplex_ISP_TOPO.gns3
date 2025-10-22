@@ -22,8 +22,8 @@
                 "locked": true,
                 "rotation": 0,
                 "svg": "<svg width=\"500\" height=\"350\"><rect width=\"500\" height=\"350\" fill=\"#00aa00\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
-                "x": 293,
-                "y": 105,
+                "x": 277,
+                "y": 70,
                 "z": 0
             },
             {
@@ -125,8 +125,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "Gi0/1",
-                            "x": -35,
-                            "y": 26
+                            "x": -42,
+                            "y": 24
                         },
                         "node_id": "fb1a8dff-666a-4d45-97d7-ad6fa09f369d",
                         "port_number": 0
@@ -138,7 +138,7 @@
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "Gi0/1",
                             "x": 72,
-                            "y": 23
+                            "y": 25
                         },
                         "node_id": "2210b7f5-acd6-4a6b-a364-a88393ac02ef",
                         "port_number": 0
@@ -157,8 +157,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "Gi0/3",
-                            "x": 29,
-                            "y": -44
+                            "x": 15,
+                            "y": -37
                         },
                         "node_id": "2210b7f5-acd6-4a6b-a364-a88393ac02ef",
                         "port_number": 0
@@ -169,8 +169,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "Gi0/3",
-                            "x": 60,
-                            "y": 52
+                            "x": 72,
+                            "y": 44
                         },
                         "node_id": "b168c525-16e1-4f55-a31d-b2fe2cba8811",
                         "port_number": 0
@@ -189,8 +189,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "Gi0/1",
-                            "x": 73,
-                            "y": 46
+                            "x": 71,
+                            "y": 42
                         },
                         "node_id": "515d9850-49e1-4dc5-9da7-921c66748bf6",
                         "port_number": 0
@@ -265,8 +265,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "Gi0/0",
-                            "x": 53,
-                            "y": -33
+                            "x": 57,
+                            "y": -44
                         },
                         "node_id": "b168c525-16e1-4f55-a31d-b2fe2cba8811",
                         "port_number": 0
@@ -457,8 +457,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "Gi0/2",
-                            "x": -6,
-                            "y": 17
+                            "x": -41,
+                            "y": 31
                         },
                         "node_id": "515d9850-49e1-4dc5-9da7-921c66748bf6",
                         "port_number": 0
@@ -553,8 +553,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "Gi0/0",
-                            "x": 33,
-                            "y": -18
+                            "x": 42,
+                            "y": -20
                         },
                         "node_id": "be29a628-4cbd-4f10-b8b6-597a62f4d2d7",
                         "port_number": 0
@@ -573,8 +573,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "Gi0/1",
-                            "x": -6,
-                            "y": 22
+                            "x": -36,
+                            "y": 29
                         },
                         "node_id": "be29a628-4cbd-4f10-b8b6-597a62f4d2d7",
                         "port_number": 0
@@ -608,8 +608,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "AS2-2",
-                    "x": 15,
-                    "y": -29
+                    "x": -29,
+                    "y": -25
                 },
                 "locked": true,
                 "name": "AS2-2",
@@ -678,8 +678,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "AS2-3",
-                    "x": 74,
-                    "y": 12
+                    "x": 64,
+                    "y": 8
                 },
                 "locked": true,
                 "name": "AS2-3",
@@ -888,8 +888,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "AS2-1",
-                    "x": 66,
-                    "y": -21
+                    "x": 70,
+                    "y": -6
                 },
                 "locked": true,
                 "name": "AS2-1",
@@ -942,8 +942,8 @@
                 "symbol": ":/symbols/classic/router.svg",
                 "template_id": "78717315-ce10-4886-bcf9-a8df6c521485",
                 "width": 66,
-                "x": 538,
-                "y": 86,
+                "x": 535,
+                "y": 52,
                 "z": 1
             },
             {
