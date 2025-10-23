@@ -62,6 +62,7 @@ Domain: **corp.at**
 ## DC2-1 nach Router konfiguration
 - *nat immernoch aus*->
     - DC2-1 in domain einbinden
+  
     ![bild wie DC2-1 zu "corp.at" geadded wird](./IMAGES/add_DC2-1_to_domain.png)
     
     *im Bild ist DC2-1 schon in "corp.at" eingebunden.*
