@@ -111,11 +111,13 @@ wir benutzen eine Ubuntu VM als router
 ## Testen
 - ## Replikation Testen
     - ```repadmin /replsummary```
+  
     ![repadmin /replsummary output](./IMAGES/repadmin_replsummary_output.png)
 
     Bild zeigt eine zusammenfassung der replikationen an auf DC1-1
 
     - ```repadmin /showrepl```
+
     ![repadmin /showrepl output](./IMAGES/repadmin_showrepl_output.png)
 
     Bild zeigt eine zusammenfassung der letzen replikationen an und ob diese versuche gelungen sind oder nicht
