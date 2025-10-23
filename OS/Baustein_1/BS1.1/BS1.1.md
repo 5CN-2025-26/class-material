@@ -31,6 +31,7 @@ Domain: **corp.at**
 - #### neue Site hinzufügen
     - Active Directory Sites & services öffnen
     ![Active_Directory_Sites_and_services_overview](./IMAGES/Active_Directory_Sites_and_services_overview.png)
+
     - Sites und Site-Links **umbenenen** (im bild sind die sites und site links schon umbenannt)
     - eine neue Site (Site2) erstellen und den umbenannten site link auswählen (in dem man "Sites" rechtsclickt)
 
@@ -62,6 +63,7 @@ Domain: **corp.at**
 - *nat immernoch aus*->
     - DC2-1 in domain einbinden
     ![bild wie DC2-1 zu "corp.at" geadded wird](./IMAGES/add_DC2-1_to_domain.png)
+    
     *im Bild ist DC2-1 schon in "corp.at" eingebunden.*
 
     - Credentials: ```corp\administrator``` und dein passwort (```corp\``` ist das prefix von der domain)
@@ -109,10 +111,12 @@ wir benutzen eine Ubuntu VM als router
 - ## Replikation Testen
     - ```repadmin /replsummary```
     ![repadmin /replsummary output](./IMAGES/repadmin_replsummary_output.png)
+
     Bild zeigt eine zusammenfassung der replikationen an auf DC1-1
 
     - ```repadmin /showrepl```
     ![repadmin /showrepl output](./IMAGES/repadmin_showrepl_output.png)
+
     Bild zeigt eine zusammenfassung der letzen replikationen an und ob diese versuche gelungen sind oder nicht
 
 
