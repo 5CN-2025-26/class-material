@@ -99,7 +99,7 @@ wir benutzen eine Ubuntu VM als router
             ```net.ipv4.ip_forward=1``` *einfach das <#> weg machen*
             
             änderungen speichern und änderungen aktivieren mit folgendem command:
-        - ```udo sysctl -p``` 
+        - ```sudo sysctl -p``` 
     
     - testen ob DC1-1 und DC2-1 sich pingen können
     - wenn ja -> [DC2-1 weitermachen](#dc2-1-nach-router-konfiguration)
