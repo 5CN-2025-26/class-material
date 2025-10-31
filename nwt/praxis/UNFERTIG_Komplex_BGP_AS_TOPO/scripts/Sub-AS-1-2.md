@@ -67,6 +67,14 @@ ip route 4.4.4.4 255.255.255.255 192.168.45.4
 
 
 ## #BGP
+router bgp 6469
+bgp confederation identifier 12
+
+bgp router-id 5.5.5.5
+
+#To Sub-AS-1-1
+neighbor 4.4.4.4 remote-as 6469
+neighbor 4.4.4.4 update-source lo1
 
 
 
