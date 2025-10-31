@@ -74,10 +74,13 @@ bgp confederation identifier 12
 bgp confederation peers 6420
 bgp router-id 5.5.5.5
 
+### **I**-bgp neighbors
 #To Sub-AS-1-1
 neighbor 4.4.4.4 remote-as 6469
 neighbor 4.4.4.4 update-source lo1
+neighbor 4.4.4.4 next-hop-self
 
+### **E**-bgp neighbors
 #To Sub-AS-2-2
 neighbor 7.7.7.7 remote-as 6420
 neighbor 7.7.7.7 update-source lo1
