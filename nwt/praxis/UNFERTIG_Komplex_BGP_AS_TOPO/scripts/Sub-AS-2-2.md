@@ -50,6 +50,8 @@ exit
 
 ## #routen zu BGP LO's
 
+#To Sub-AS-2-1
+ip route 6.6.6.6 255.255.255.255 192.168.67.6
 
 ## #BGP
 

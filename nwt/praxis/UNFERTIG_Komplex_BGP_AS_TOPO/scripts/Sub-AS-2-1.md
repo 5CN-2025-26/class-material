@@ -51,6 +51,8 @@ exit
 
 ## #routen zu BGP LO's
 
+#To Sub-AS-2-2
+ip route 7.7.7.7 255.255.255.255 192.168.67.7
 
 
 ## #BGP
