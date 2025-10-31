@@ -60,6 +60,15 @@ no shut
 ip address 5.5.5.5 255.255.255.255
 exit
 
+## #routen zu BGP LO's
+
+#to Sub-AS-1-1
+ip route 4.4.4.4 255.255.255.255 192.168.45.4
+
+
+## #BGP
+
+
 
 
 
