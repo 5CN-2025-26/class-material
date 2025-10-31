@@ -54,7 +54,14 @@ exit
 ip route 6.6.6.6 255.255.255.255 192.168.67.6
 
 ## #BGP
+router bgp 6420
+bgp confederation identifier 12
 
+bgp router-id 7.7.7.7
+
+#To Sub-AS-2-2
+neighbor 6.6.6.6 remote-as 6420
+neighbor 6.6.6.6 update-source lo1
 
 
 
