@@ -65,16 +65,24 @@ exit
 #to Sub-AS-1-1
 ip route 4.4.4.4 255.255.255.255 192.168.45.4
 
+#to Sub-AS-2-2
+ip route 7.7.7.7 255.255.255.255 192.168.57.7
 
 ## #BGP
 router bgp 6469
 bgp confederation identifier 12
-
+bgp confederation peers 6420
 bgp router-id 5.5.5.5
 
 #To Sub-AS-1-1
 neighbor 4.4.4.4 remote-as 6469
 neighbor 4.4.4.4 update-source lo1
+
+#To Sub-AS-2-2
+neighbor 7.7.7.7 remote-as 6420
+neighbor 7.7.7.7 update-source lo1
+neighbor 7.7.7.7 ebgp-multi 2
+
 
 
 
