@@ -89,7 +89,7 @@ neighbor 7.7.7.7 remote-as 6420
 neighbor 7.7.7.7 update-source lo1
 neighbor 7.7.7.7 ebgp-multi 2
 neighbor 7.7.7.7 next-hop-self
-exit
+
 
 #To AS65055
 neighbor 9.9.9.9 remote-as 65055
