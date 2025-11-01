@@ -71,6 +71,9 @@ ip route 7.7.7.7 255.255.255.255 192.168.57.7
 #to AS65055
 ip route 9.9.9.9 255.255.255.255 172.168.0.2
 
+#to AS2-2
+ip route 3.3.3.3 255.255.255.255 192.168.35.3
+
 ## #BGP
 router bgp 6469
 bgp confederation identifier 12
