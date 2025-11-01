@@ -30,7 +30,6 @@ login local
 exit
 
 ## #Interface conf
-## Bridge
 
 int g 0/0
 no shut
