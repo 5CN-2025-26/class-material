@@ -86,6 +86,14 @@ neighbor 7.7.7.7 remote-as 6420
 neighbor 7.7.7.7 update-source lo1
 neighbor 7.7.7.7 ebgp-multi 2
 
+## #tunnel for AS65055
+int tun 1
+no shut
+tun source 192.168.58.5
+tun dest 192.168.89.9
+ip address 172.168.0.1 255.255.255.0
+exit
+
 
 
 
