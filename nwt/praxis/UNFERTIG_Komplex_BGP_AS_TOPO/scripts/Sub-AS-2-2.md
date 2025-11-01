@@ -75,7 +75,7 @@ neighbor 6.6.6.6 next-hop-self
 neighbor 5.5.5.5 remote-as 6469
 neighbor 5.5.5.5 update-source lo1
 neighbor 5.5.5.5 ebgp-multi 2
-
+neighbor 5.5.5.5 next-hop-self
 
 
 

@@ -88,12 +88,14 @@ neighbor 4.4.4.4 next-hop-self
 neighbor 7.7.7.7 remote-as 6420
 neighbor 7.7.7.7 update-source lo1
 neighbor 7.7.7.7 ebgp-multi 2
+neighbor 7.7.7.7 next-hop-self
 exit
 
 #To AS65055
 neighbor 9.9.9.9 remote-as 65055
 neighbor 9.9.9.9 update-source lo1
 neighbor 9.9.9.9 ebgp-multi 2
+neighbor 9.9.9.9 next-hop-self
 exit
 
 

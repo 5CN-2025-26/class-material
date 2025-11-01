@@ -74,6 +74,7 @@ neighbor 7.7.7.7 next-hop-self
 neighbor 4.4.4.4 remote-as 6469
 neighbor 4.4.4.4 update-source lo1
 neighbor 4.4.4.4 ebgp-multi 2
+neighbor 4.4.4.4 next-hop-self
 
 
 
