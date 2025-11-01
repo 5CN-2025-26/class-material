@@ -85,6 +85,11 @@ neighbor 4.4.4.4 next-hop-self
 neighbor 7.7.7.7 remote-as 6420
 neighbor 7.7.7.7 update-source lo1
 neighbor 7.7.7.7 ebgp-multi 2
+exit
+
+
+## #route for tunnel to AS65055
+ip route 192.168.89.0 255.255.255.0 192.168.58.8
 
 ## #tunnel for AS65055
 int tun 1
