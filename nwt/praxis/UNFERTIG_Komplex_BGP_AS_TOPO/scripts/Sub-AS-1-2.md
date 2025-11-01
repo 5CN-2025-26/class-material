@@ -99,6 +99,13 @@ neighbor 9.9.9.9 remote-as 65055
 neighbor 9.9.9.9 update-source lo1
 neighbor 9.9.9.9 ebgp-multi 2
 neighbor 9.9.9.9 next-hop-self
+
+
+#To AS2-2
+neighbor 3.3.3.3 remote-as 2
+neighbor 3.3.3.3 update-source lo1
+neighbor 3.3.3.3 ebgp-multi 2
+neighbor 3.3.3.3 next-hop-self
 exit
 
 
