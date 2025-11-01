@@ -71,6 +71,10 @@ ip route 6.6.6.6 255.255.255.255 192.168.46.6
 #to AS2-1
 ip route 2.2.2.2 255.255.255.255 192.168.24.2
 
+#to AS1-1
+ip route 1.1.1.1 255.255.255.255 192.168.14.1
+
+
 ## #BGP
 router bgp 6469
 bgp confederation identifier 12
@@ -97,5 +101,10 @@ neighbor 2.2.2.2 update-source lo1
 neighbor 2.2.2.2 ebgp-multi 2
 neighbor 2.2.2.2 next-hop-self
 
+#To AS1-1
+neighbor 1.1.1.1 remote-as 1
+neighbor 1.1.1.1 update-source lo1
+neighbor 1.1.1.1 ebgp-multi 2
+neighbor 1.1.1.1 next-hop-self
 
 
