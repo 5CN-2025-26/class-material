@@ -4,7 +4,7 @@
 
 # AS1
 
-### AS1-1
+### [AS1-1](../scripts/AS1-1.md)
 | interface | IP               | description   |
 | --------- | ---------------- | ------------- |
 | GI0/0     | 203.0.113.1 /24  | To_AS1000     |
@@ -16,7 +16,7 @@
 
 ## Sub-AS1
 
-### Sub-AS-1-1
+### [Sub-AS-1-1](../scripts/Sub-AS-1-1.md)
 | interface | IP               | description   |
 | --------- | ---------------- | ------------- |
 | GI0/0     | 192.168.14.4 /24 | To_AS1-1      |
@@ -25,7 +25,7 @@
 | GI0/3     | 192.168.46.4 /24 | To_Sub-AS-2-1 |
 | LO1       | 4.4.4.4 /32      | -             |
 
-### Sub-AS-1-2
+### [Sub-AS-1-2](../scripts/Sub-AS-1-2.md)
 | interface | IP               | description   |
 | --------- | ---------------- | ------------- |
 | GI0/0     | 192.168.35.5 /24 | To_AS2-2      |
@@ -37,14 +37,14 @@
 
 ## Sub-AS2
 
-### Sub-AS-2-1
+### [Sub-AS-2-1](../scripts/Sub-AS-2-1.md)
 | interface | IP               | description   |
 | --------- | ---------------- | ------------- |
 | GI0/0     | 192.168.46.6 /24 | To_Sub-AS-1-1 |
 | GI0/1     | 192.168.67.6 /24 | To_Sub-AS-2-2 |
 | LO1       | 6.6.6.6 /32      | -             |
 
-### Sub-AS-2-2
+### [Sub-AS-2-2](../scripts/Sub-AS-2-2.md)
 | interface | IP               | description   |
 | --------- | ---------------- | ------------- |
 | GI0/0     | 192.168.57.7 /24 | To_Sub-AS-1-2 |
@@ -52,14 +52,14 @@
 | LO1       | 7.7.7.7 /32      | -             |
 
 
-## Bridge
+## [Bridge](../scripts/Bridge.md)
 | interface | IP               | description   |
 | --------- | ---------------- | ------------- |
 | GI0/0     | 192.168.58.8 /24 | To_Sub-AS-1-2 |
 | GI0/1     | 192.168.89.8 /24 | To_AS65505    |
 | LO1       | 8.8.8.8 /32      | -             |
 
-## ASAS65505
+## [ASAS65505](../scripts/AS65505.md)
 | interface | IP               | description |
 | --------- | ---------------- | ----------- |
 | GI0/0     | 192.168.89.9 /24 | To_Bridge   |
