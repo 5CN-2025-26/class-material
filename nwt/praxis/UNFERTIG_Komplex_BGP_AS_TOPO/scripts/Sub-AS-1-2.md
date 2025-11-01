@@ -68,6 +68,9 @@ ip route 4.4.4.4 255.255.255.255 192.168.45.4
 #to Sub-AS-2-2
 ip route 7.7.7.7 255.255.255.255 192.168.57.7
 
+#to AS65055
+ip route 9.9.9.9 255.255.255.255 172.168.0.2
+
 ## #BGP
 router bgp 6469
 bgp confederation identifier 12
@@ -87,6 +90,12 @@ neighbor 7.7.7.7 update-source lo1
 neighbor 7.7.7.7 ebgp-multi 2
 exit
 
+#To AS65055
+neighbor 9.9.9.9 remote-as 65055
+neighbor 9.9.9.9 update-source lo1
+neighbor 9.9.9.9 ebgp-multi 2
+exit
+
 
 ## #route for tunnel to AS65055
 ip route 192.168.89.0 255.255.255.0 192.168.58.8
@@ -98,6 +107,8 @@ tun source 192.168.58.5
 tun dest 192.168.89.9
 ip address 172.168.0.1 255.255.255.0
 exit
+
+
 
 
 
