@@ -1,2 +1,0 @@
-# THIS IS NOT A DRILL
-## REMOVE this file
