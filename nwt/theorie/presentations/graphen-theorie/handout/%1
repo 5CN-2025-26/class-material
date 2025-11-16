@@ -1,0 +1,6 @@
+Fontconfig warning: using without calling FcInit()
+error: plugin: filetype already registered: application/pdf
+error: Could not register plugin '/usr/lib64/zathura/libpdf-poppler.so'.
+warning: Unknown option: sandbox
+info: Opening plain database via sqlite backend.
+warning: sqlite database already exists. Set your database backend to sqlite. See zathurarc(5) for details.

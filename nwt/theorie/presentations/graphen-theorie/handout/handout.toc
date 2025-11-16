@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {1}Einführung}{2}{}%
+\contentsline {section}{\numberline {2}Entwicklung der Graphentheorie}{2}{}%
+\contentsline {subsection}{\numberline {2.1}Königsberg \& Euler}{2}{}%
+\contentsline {subsection}{\numberline {2.2}Djikstra}{2}{}%
+\contentsline {subsection}{\numberline {2.3}Floyd-Warshall}{2}{}%
+\contentsline {section}{\numberline {3}Anwendungen \& Fallbeispiele}{2}{}%
+\contentsline {subsection}{\numberline {3.1}BGP}{2}{}%
+\contentsline {subsection}{\numberline {3.2}OSPF}{2}{}%
+\contentsline {subsection}{\numberline {3.3}MPLS}{2}{}%
+\contentsline {section}{\numberline {4}Ausblick \& Beispielfrage}{2}{}%

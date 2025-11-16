@@ -1,0 +1,48 @@
+
+% ------ |
+% TITLES |
+% ------ |
+
+\usepackage{titlesec}
+
+% CHAPTER STYLING (LINES ABOVE & BELOW, CENTERED, BIG)
+\titleformat{\chapter}
+	{\titlerule\vspace{0.3\baselineskip}\normalfont\Huge\centering}
+  	{\Roman{chapter}. }{0pt}{}[\titlerule]
+\titlespacing*{\chapter}{0pt}{0pt}{\baselineskip}
+
+% SECTION STYLING
+\titleformat{\section}
+ 	{\normalfont\bfseries}
+	{}{0pt}{}
+	\titlespacing*{\section}{0pt}{0.5\baselineskip}{0.5\baselineskip}
+
+
+
+% General
+
+\usepackage{multicol} % multicol support
+\usepackage{blindtext} % blindtext
+\usepackage{amsmath} % rendering
+
+% GRAPHICS
+
+\usepackage{graphicx}
+\usepackage{tikz}
+
+% DIRECTORY PATHS
+
+\graphicspath{ {pix/} }
+
+% FONTS
+
+\usepackage{lettrine}
+%\usepackage{garamondlibre}
+\input GoudyIn.fd
+
+\newcommand*\dropcap[2]{\lettrine[lines=3]{\usefont{U}{GoudyIn}{xl}{n}#1}{#2}}
+
+% Greek Support
+
+\usepackage[LGR,T1]{fontenc} \usepackage[utf8]{inputenc}
+\newcommand{\textgreek}[1]{\begingroup\fontencoding{LGR}\selectfont#1\endgroup}
