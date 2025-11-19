@@ -1,5 +1,14 @@
 \documentclass{article}
-\input{ {../base.tex} }
+
+\usepackage{multicol}  % multicol support
+\usepackage{blindtext}  % TODO to be removed
+\usepackage{amsmath}  % math rendering
+\usepackage{tikz}  % graphs
+
+\usepackage[citestyle=numeric,bibstyle=authortitle]{biblatex}
+
+\addbibresource{references.bib} 
+
 
 % metadata
 
@@ -15,7 +24,7 @@
 
 \newpage
 
-\include{ch1/ch1}  % Einführung
+\include{ch1/ch1}  % Grundlagen
 
 \include{ch2/ch2}  % Entwicklung
 
@@ -36,5 +45,8 @@
 \subsection{MPLS}
 
 \section{Ausblick \& Beispielfrage}
+
+\printbibheading
+\printbibliography
 
 \end{document}
